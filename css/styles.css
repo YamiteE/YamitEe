@@ -1,0 +1,149 @@
+#title {
+    background-color: rgb(102, 255, 0);
+    }
+
+    h1 {
+        font-family: 'Lobster', cursive;
+        font-size: 3rem;
+        line-height: 2.0;
+    }
+
+    h3 {
+
+        font-family: 'Redressed', cursive;
+        font-size: 3rem;
+        line-height: 2.0;
+    }
+    .PlayGame-button{
+  margin: 1% 1% 0% 0%;
+}
+.nav-item{
+  padding: 1.5px 1px;
+}
+.avatar-image {
+  margin: 6% 0% 6% 0%;
+}
+
+/*media query ng title*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .avatar-image{
+  border-radius:  100%;
+  transform: rotate(0deg);
+}
+}
+
+.New {
+  padding: 10rem 0 10rem 0;
+  margin: 2rem;
+  text-align: center;
+}
+.fa-chrome {
+  color: Green;
+  font-size: 3rem;
+}
+.fa-costumize {
+  color: Green;
+  font-size: 3rem;
+}
+.fa-costumize:hover {
+  color: Black;
+}
+.fa-chrome:hover {
+  color: rgb(2, 2, 2);
+}
+/* Media Query Features Section  */
+@media (max-width:1028px){
+  #features {
+    text-align: center;
+  }
+  h3 {
+    font-family: 'Orelega One', cursive;
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: 'Orelega One', cursive;
+    font-size: 15px;
+  }
+}
+
+#testimonials {
+text-align: center;
+background-color: rgb(102, 255, 0);
+color: White;
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+
+}
+#press {
+  background-color: rgb(102, 255, 0);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 10px 10px 50px;
+}
+
+#pricing {
+    padding: 3% 10%;
+}
+.card-body {
+  margin: 7px;
+}
+.card  {
+  margin: 10px;
+  width: auto;
+font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border: 1px solid rgba(0, 0, 0, 255);
+  border-radius: 0.25rem;
+  background-color: ivory;
+}
+.sign up {
+  padding: 3% 30%;
+}
+.sign {
+  padding: 3% 30%;
+  background-color: lightblue;
+}
+.plan {
+font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+.card-text {
+font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: black;
+}
+.card-header{
+  background-color: black;
+  color: white;
+}
+/* Media Query Features Pricing  */
+@media (max-width:1028px){
+  #Pricing {
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Orelega One', cursive;
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: 'Orelega One', cursive;
+    font-size: 12px;
+  }
+}
